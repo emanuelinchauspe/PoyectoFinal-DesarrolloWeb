@@ -46,19 +46,30 @@ background-color: rgb(255, 255, 255);
     grid-row-start: 3;
 }
 
-h2{
+.titulos-index{
     display: grid;
     justify-content: center;
 }
 
 .caracteristicas{
     display: grid;
+    padding: 3em;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
-    justify-content: center;
+    justify-content:space-around;
     color:rgb(128, 128, 128)
 }
 
+.icono{
+    padding: 0 ;
+}
+
+.salida-index{
+    font-size: 1.3rem;
+    font-style: italic;
+    color: #397F77;
+    padding: 3em;
+}
 
 a{
     height: 10px;
@@ -86,7 +97,7 @@ a{
     padding: 10px;
     background-color: black;
     color: white;
-    border-radius: 20px;
+    border-radius: 20px 20px 20px 0;
     font-size: .7em;
 }
 
@@ -100,9 +111,30 @@ a{
     color: white
 }
 
+.a{
+    display: grid;
+    padding: 3em;
+    background-color:#397F77;
+    color: white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 .pie-general{
     background-color: #397F77;
-    border-top: 2px solid black;
+    color: white;
+    display: grid;
+    justify-items: center;
 }
 
 .titulo-index{
