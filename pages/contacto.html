@@ -27,45 +27,53 @@
         </nav>
     </header>
     <main>
-        <h1>CONTACTO</h1>
-        <form id="formulario">
-            <label for="name">Nombre</label>
-            <input type="text" name="nombre" id="name" placeholder="Nombre">
-            <br>
-            <label for="email">Correo</label>
-            <input type="email" name="correo" id="email" placeholder="Correo">
-            <br>
-            <label for="tel">Número télefónico</label>
-            <input type="text" name="telefono" id="tel" placeholder="Teléfono">
-            <br>
-            <label for="localidad">Localidad</label>
-            <input type="text" name="localidad" id="localidad" placeholder="Localidad">
-        </form>
-        <div class="mapa">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12948.621619773094!2d-58.49802975507813!3d-35.77155876219654!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9597f1d2a5830ba5%3A0xfbe9ffa8bdefb3b4!2sLoganet!5e0!3m2!1ses-419!2sar!4v1678726118395!5m2!1ses-419!2sar"
-                width="1200px" height="300px" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
+        <section class="seccion-contacto">
+            <h1>CONTACTO</h1>
+            <form id="formulario">
+                <label for="name">Nombre</label>
+                <input type="text" name="nombre" id="name" placeholder="Nombre">
+                <br>
+                <label for="email">Correo</label>
+                <input type="email" name="correo" id="email" placeholder="Correo">
+                <br>
+                <label for="tel">Número télefónico</label>
+                <input type="text" name="telefono" id="tel" placeholder="Teléfono">
+                <br>
+                <label for="localidad">Localidad</label>
+                <input type="text" name="localidad" id="localidad" placeholder="Localidad">
+            </form>
+            <span class="frase">
+                "Lo dificil de buscar cosas en internet es verificar su veracidad"
+                <br>
+                Abraham Lincoln
+            </span>
+        </section>
+        <section>
+            <iframe class="mapa-google"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12948.621619773094!2d-58.49802975507813!3d-35.77155876219654!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9597f1d2a5830ba5%3A0xfbe9ffa8bdefb3b4!2sLoganet!5e0!3m2!1ses-419!2sar!4v1678726118395!5m2!1ses-419!2sar"
+                    width=100% height="auto" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
     </main>
     <footer class="pie-general">
         <p>Creando vínculos, conectando tu mundo</p>
         <section class="contactos">
-            <h3>Encontranos en nuestras redes</h3>
-            <a href="https://www.instagram.com/loganet.internet/" target="_blank"><img src="../img/instagram-logo.png"
-                    height="30" alt="Nuestro Instagram"></a>
-            <a href="https://www.facebook.com/loganet.internet" target="_blank"><img src="../img/facebook-logo.png"
-                    height="30" alt="Nuestro Facebook"></a>
-            <a href="https://api.whatsapp.com/send/?phone=5492241541600&text&type=phone_number&app_absent=0"
+            <h3 class="elemento-footer">Encontranos en nuestras redes</h3>
+            <a class="elemento-footer" href="https://www.instagram.com/loganet.internet/" target="_blank"><img
+                    src="../img/instagram-logo.png" height="30" alt="Nuestro Instagram"></a>
+            <a class="elemento-footer" href="https://www.facebook.com/loganet.internet" target="_blank"><img
+                    src="../img/facebook-logo.png" height="30" alt="Nuestro Facebook"></a>
+            <a class="elemento-footer"
+                href="https://api.whatsapp.com/send/?phone=5492241541600&text&type=phone_number&app_absent=0"
                 target="_blank"><img src="../img/whatsapp-logo.png" height="30" alt="Nuestro WhastApp"></a>
         </section>
-        <div>
+        <div class="elemento-footer">
             Calle 10 N°350, General Belgrano, Buenos Aires. Argentina.
         </div>
-        <div>
+        <div class="elemento-footer">
             0800-266-7019
         </div>
-        <div>
+        <div class="elemento-footer">
             © 2023 Loganet SRL. Todos los derechos reservados.
         </div>
     </footer>
