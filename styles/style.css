@@ -203,6 +203,7 @@ a {
 
 .foto-servicios {
     border-radius: 300px;
+    width: 30vw;
 }
 
 @media (max-width:800px) {
