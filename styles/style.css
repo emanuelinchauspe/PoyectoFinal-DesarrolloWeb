@@ -192,6 +192,7 @@ a {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(3, 8em);
     column-gap: 2em;
+    
 }
 
 
