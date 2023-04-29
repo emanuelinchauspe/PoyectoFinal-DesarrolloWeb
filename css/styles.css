@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: face;
+  src: url(../fonts/SourceSansPro-regular.ttf);
+}
+body {
+  font-family: face;
+}
+
+.body-intro {
+  height: auto;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  background-image: url(../img/portada.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-attachment: scroll;
+  background-position: center;
+  font-size: 1.2rem;
+  color: rgb(255, 255, 255);
+}
+
+.titulo-principal {
+  font-size: 3rem;
+  grid-row-start: 1;
+  padding: 1em 0 0 1em;
+}
+
+.p-principal {
+  grid-row-start: 2;
+  align-self: center;
+  padding: 0 0 0 3em;
+}
+
+.btn {
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.titulos-index {
+  display: grid;
+  justify-content: center;
+}
+
+.caracteristicas {
+  display: flex;
+  flex-direction: row;
+  gap: 5em;
+  padding: 3em;
+  align-content: center;
+  color: rgb(128, 128, 128);
+}
+
+.icono {
+  width: 30px;
+}
+
+.servicio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.salida-index {
+  font-size: 1.3rem;
+  font-style: italic;
+  color: #397F77;
+  padding: 3em;
+}
+
+.botones__principales {
+  margin: 20px;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  font-size: 0.7em;
+}
+
+.botones__principales--blanco {
+  background-color: white;
+  color: black;
+}
+
+.articulo-servicios {
+  display: grid;
+  padding: 3em;
+  background-color: #397F77;
+  color: white;
+  background-size: cover;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(3, 8em);
+  column-gap: 2em;
+}
+
+.titulo-servicios {
+  padding: 0 0 1em 0;
+  font-size: 3rem;
+  align-items: end;
+}
+
+.foto-servicios {
+  border-radius: 300px;
+  width: 30vw;
+}
+
+.foto-servicios {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  align-content: center;
+  justify-items: end;
+}
+
+.instalacion {
+  color: #397F77;
+  padding: 3em;
+}
+
+.subtitulo-servicios {
+  display: grid;
+  justify-items: center;
+  padding: 1em;
+}
+
+.seccion-nosotros {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em;
+  background-color: #397F77;
+  color: white;
+}
+
+.titulo-nosotros {
+  font-size: 3rem;
+  padding: 0.5em 0 0 1em;
+}
+
+.subtitulo-nosotros {
+  font-size: 2rem;
+  padding: 1em;
+}
+
+.foto-oficina {
+  margin: 1em 0 0 1em;
+  border: solid white 10px;
+}
+
+.seccion-contacto {
+  background-color: #397F77;
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 50px 200px 100px;
+  padding: 2em;
+}
+.seccion-contacto .titulo-contacto {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.seccion-contacto .formulario-contacto {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-column-end: 3;
+}
+.seccion-contacto .frase {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+.seccion-contacto .mapa-google {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+.seccion-contacto .mapa-google iframe {
+  height: 100%;
+}
+
+.frase {
+  font-size: 1.1rem;
+  font-style: italic;
+  padding: 1em;
+}
+
+.bloque-encabezado {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  justify-content: center;
+  align-items: end;
+  padding: 1em;
+  background-color: rgb(255, 255, 255);
+}
+
+.barra-navegacion {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  list-style: none;
+  background-color: rgb(255, 255, 255);
+}
+
+.menu-principal {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(128, 128, 128);
+  margin: 1em;
+  padding: 1em;
+  justify-items: center;
+  font-size: 1.1em;
+}
+
+.hover-boton:hover {
+  background-color: #397F77;
+  color: white;
+}
+
+.pie-general {
+  background-color: #397F77;
+  color: white;
+  display: grid;
+  justify-items: center;
+  padding: 2rem;
+}
+
+.elemento-footer {
+  padding: 0.6rem;
+}
+
+/*# sourceMappingURL=styles.css.map */

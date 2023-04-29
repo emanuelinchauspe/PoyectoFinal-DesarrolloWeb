@@ -1,0 +1,23 @@
+.seccion-nosotros {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+    background-color: #397F77;
+    color: white;
+}
+
+.titulo-nosotros {
+    font-size: 3rem;
+    padding: .5em 0 0 1em;
+}
+
+.subtitulo-nosotros {
+    font-size: 2rem;
+    padding: 1em;
+}
+
+.foto-oficina {
+    margin: 1em 0 0 1em;
+    border: solid white 10px;
+}

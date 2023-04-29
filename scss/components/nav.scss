@@ -1,0 +1,27 @@
+.barra-navegacion {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    list-style: none;
+    background-color: rgb(255, 255, 255);
+}
+
+.menu-principal {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(128, 128, 128);
+    margin: 1em;
+    padding: 1em;
+    justify-items: center;
+    font-size: 1.1em;
+}
+
+.hover-boton:hover {
+    background-color: #397F77;
+    color: white;
+}
