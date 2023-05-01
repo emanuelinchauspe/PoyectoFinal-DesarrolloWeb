@@ -4,6 +4,11 @@
     display: grid;
     justify-items: center;
     padding: 2rem;
+    .iconos-contacto{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
 }
 
 .elemento-footer {

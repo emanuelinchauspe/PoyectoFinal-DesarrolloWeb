@@ -3,43 +3,81 @@
     color: white;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 50px 200px 100px;
-    // display: flex;
-    // flex-direction: column;
+    grid-template-rows: 50px 250px 100px;
     padding: 2em;
-    // align-items: center;
-    // justify-content: center;
-    .titulo-contacto{
+
+    .titulo-contacto {
         grid-column-start: 1;
         grid-column-end: 2;
         grid-row-start: 1;
         grid-row-end: 2;
     }
-    .formulario-contacto{
+
+    .formulario-contacto {
         grid-column-start: 1;
         grid-column-end: 2;
         grid-row-start: 2;
         grid-column-end: 3;
+        width: 50%;
+        padding: 1em;
+        .imput{
+            width: 100%;
+            height: 30px;
+            font-size: 16px;
+            font-style: italic;
+            padding: 1em;
+        }
     }
-    .frase{
+
+    .frase {
         grid-column-start: 1;
         grid-column-end: 2;
         grid-row-start: 3;
         grid-row-end: 4;
+        font-size: 1.1rem;
+        font-style: italic;
+        padding: 1em;
     }
-    .mapa-google{
+
+    .mapa-google {
         grid-column-start: 2;
         grid-column-end: 3;
         grid-row-start: 1;
         grid-row-end: 4;
-        iframe{
+
+        iframe {
             height: 100%;
         }
     }
 }
 
-.frase {
-    font-size: 1.1rem;
-    font-style: italic;
-    padding: 1em;
+.seccion-faq {
+    background-color: #397F77;
+    color: white;
+    padding: 3em;
+
+    .lista-faq {
+        padding: 1em;
+
+        li {
+            padding: 1em;
+        }
+    }
+}
+
+@media(max-width:750px){
+    .seccion-contacto{
+        padding: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .formulario-contacto{
+        width: auto;
+        padding: 0;
+        .imput{
+            width: 100%;
+        }
+    }   
 }

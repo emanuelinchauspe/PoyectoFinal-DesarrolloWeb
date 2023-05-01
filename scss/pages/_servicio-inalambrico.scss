@@ -1,42 +1,63 @@
 .articulo-servicios {
     display: grid;
+    justify-items: center;
+    align-content: center;
+    height: 600px;
     padding: 3em;
     background-color: #397F77;
     color: white;
     background-size: cover;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(3, 8em);
-    column-gap: 2em;
-    
+
+    .titulo-servicios {
+        padding: 0 0 1em 0;
+        font-size: 3rem;
+        text-shadow: 2px 2px 5px black;
+        align-items: end;
+    }
+
+    .caja-foto{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 4;
+        align-items: center;
+        justify-content: center;
+    }
+    .foto-servicios {
+        border-radius: 300px;
+        width: 30vw;
+    }
+    .instalacion {
+        color: #397F77;
+        padding: 3em;
+    }
+    .subtitulo-servicios {
+        color: rgb(128, 128, 128);
+        display: none;
+        justify-items: center;
+        padding: 1em;
+        text-shadow: 2px 2px 5px #397F77;
+    }
+    .parrafo-servicios{
+        text-shadow: 2px 2px 5px black;
+        font-size: 1.5rem;
+        grid-column-start: 1;
+    }
 }
 
-.titulo-servicios {
-    padding: 0 0 1em 0;
-    font-size: 3rem;
-    align-items: end;
+@media(max-width:860px){
+    .articulo-servicios{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
-.foto-servicios {
-    border-radius: 300px;
-    width: 30vw;
-}
 
-.foto-servicios {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 3;
-    align-content: center;
-    justify-items: end;
-}
 
-.instalacion {
-    color: #397F77;
-    padding: 3em;
-}
 
-.subtitulo-servicios {
-    display: grid;
-    justify-items: center;
-    padding: 1em;
-}
+
+
+

@@ -1,0 +1,44 @@
+.articulo-fibra{
+    color: white;
+    min-height: 400px;
+    background-image: url(../img/fibra.jpg);
+    background-size:cover;
+    background-position:bottom;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .titulo-fibra{
+        font-size: 3rem;
+        padding: 1em;
+        text-shadow: 2px 2px 5px black;
+    }
+    .parrafo-fibra{
+        font-size: 1.5em;
+        padding: 0 3em 3em 3em;
+        text-shadow: 2px 2px 5px black;
+    }
+}
+
+    .instalacion{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1em;
+        .subtitulo-instalacion{
+            font-size: 2rem;
+            color:#000000 ;
+            text-shadow: 2px 2px 5px rgb(128, 128, 128);
+        }
+        .subparrafo-instalacion{
+            width: 70vw;
+            padding: 20px;
+            font-size: 1.5rem;
+            font-style: italic;
+        }
+        .foto-modem{
+            width: 600px;
+            border-radius: 300px;
+        }
+    }
