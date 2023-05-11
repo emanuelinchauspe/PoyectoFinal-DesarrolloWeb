@@ -1,29 +1,32 @@
-.articulo-fibra{
+.articulo-fibra {
     color: white;
     min-height: 400px;
     background-image: url(../img/fibra.jpg);
-    background-size:cover;
-    background-position:bottom;
+    background-size: cover;
+    background-position: bottom;
     background-attachment: fixed;
     display: flex;
     flex-direction: column;
     align-items: center;
 
-    
-    .titulo-fibra{
+
+    .titulo-fibra {
         font-size: 3rem;
         padding: 1em;
         text-shadow: 2px 2px 5px black;
     }
-    .parrafo-fibra{
+
+    .parrafo-fibra {
         font-size: 1.5em;
         padding: 0 3em 3em 3em;
         text-shadow: 2px 2px 5px black;
     }
 }
-.articulo-fibra{
+
+.articulo-fibra {
     animation: aparicion 20s ease infinite;
 }
+
 @keyframes aparicion {
     0% {
         background-color: white;
@@ -34,23 +37,27 @@
     }
 }
 
-    .instalacion{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 1em;
-        .subtitulo-instalacion{
-            font-size: 2rem;
-            color:#000000 ;
-        }
-        .subparrafo-instalacion{
-            width: 70vw;
-            padding: 20px;
-            font-size: 1.5rem;
-            font-style: italic;
-        }
-        .foto-modem{
-            width: 600px;
-            border-radius: 300px;
-        }
+.instalacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+
+    .subtitulo-instalacion {
+        font-size: 3rem;
+        color: #000000;
     }
+
+    .subparrafo-instalacion {
+        width: 70vw;
+        padding: 20px;
+        font-size: 1.5rem;
+        font-style: italic;
+    }
+
+    .foto-modem {
+        width: 100%;
+        border-radius: 150px;
+        padding: 0 5em 0 5em;
+    }
+}

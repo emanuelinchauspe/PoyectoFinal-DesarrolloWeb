@@ -68,16 +68,18 @@
 @media(max-width:750px){
     .seccion-contacto{
         padding: 0;
-        width: 100%;
+        margin: 0;
+        // width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
-    }
-    .formulario-contacto{
-        width: auto;
-        padding: 0;
-        .imput{
+        .formulario-contacto{
+            width: 80%;
+            padding: 0;
+            margin: 0;
+            .imput{
             width: 100%;
-        }
-    }   
+            }
+        }   
+}
 }
